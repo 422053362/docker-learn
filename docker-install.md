@@ -77,3 +77,10 @@ $ rm -rf /var/lib/docker
 Locate and delete any user-created configuration files.
 
 
+
+
+
+ifconfig eno16777736:0 192.168.1.124 netmask 255.255.255.0 up
+ifconfig eno16777736:1 192.168.1.125 netmask 255.255.255.0 up
+
+
